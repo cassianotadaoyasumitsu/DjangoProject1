@@ -10,10 +10,11 @@ RUN mkdir -p /code
 WORKDIR /code
 
 COPY requirements.txt /tmp/requirements.txt
-RUN set -ex && \
+RUN apt-get update && apt-get install -y gcc build-essential && \
     pip install --upgrade pip && \
     pip install -r /tmp/requirements.txt && \
     rm -rf /root/.cache/
+
 COPY . /code
 
 EXPOSE 8000
