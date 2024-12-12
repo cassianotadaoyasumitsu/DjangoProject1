@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for djangoproject1-kpiolw-holy-mountain-9415 on 2024-12-12T12:34:50+09:00
+# fly.toml app configuration file generated for djangoproject1-wandering-tree-4403 on 2024-12-12T12:47:06+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'djangoproject1-kpiolw-holy-mountain-9415'
+app = 'djangoproject1-wandering-tree-4403'
 primary_region = 'nrt'
 console_command = '/code/manage.py shell'
 
